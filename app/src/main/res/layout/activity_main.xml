@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texttitle"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Enter First Name"
+        android:inputType="textPersonName"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/last"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texttitle"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Last Name"
+        android:inputType="textPersonName"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Phone No"
+        android:inputType="number"
+        android:maxLength="10"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Age"
+        android:inputType="number"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texttitle"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Email"
+        android:inputType="textPersonName"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dob"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Insert"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-50dp"
+        android:text="Update"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnUpdate"
+        android:layout_marginLeft="30dp"
+        android:text="Delete"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDelete"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-50dp"
+        android:text="Display"
+        android:textSize="24dp" />
+
+
+</LinearLayout>
